@@ -65,3 +65,17 @@ li img{
     vertical-align: 15px;
     padding-left: 10px;
 }
+
+.coupon-box{
+    padding: 20px 10px 20px 0;
+}
+
+.btn-calculate{
+    padding: 8px;
+    background-color: #ffad29;
+    
+}
+
+.btn-section{
+    text-align: center;
+}
