@@ -26,12 +26,18 @@ calculateButton.addEventListener('click', function(){
             var addPrice = parseInt(thisCheckbox.value);
             console.log(addPrice);
 
+            //somma prezzo base + valori elementi check
             prezzoBaseBurger = prezzoBaseBurger + addPrice;
             
         }
     
     }
-
     console.log(prezzoBaseBurger);
 
+    //stampare risultato somma in forma umana
+    var prezzoDaStampare = prezzoBaseBurger.toFixed(2);
+    console.log(prezzoDaStampare);
+    document.getElementById('prezzo-finale').innerHTML = 'Your Price ' + prezzoDaStampare + ' $';
+
 })
+
