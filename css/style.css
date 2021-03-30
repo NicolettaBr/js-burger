@@ -78,4 +78,16 @@ li img{
 
 .btn-section{
     text-align: center;
+    padding-bottom: 40px;
+}
+
+/*footer*/
+footer{
+    background-color: crimson;
+    height: 100px;
+    color: white;
+}
+
+h2{
+    padding-top: 35px;
 }
