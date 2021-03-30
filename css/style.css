@@ -14,6 +14,8 @@
 .padding-left{
     padding-left: 30px;
 }
+
+
 /*header*/
 header{
     background-color: #ffad29;
@@ -25,10 +27,41 @@ h1{
 
 /*main*/
 .name-burger{
-    padding-top: 20px;
+    padding: 20px 0 20px 0;
 }
 
 #name_burger{
     padding: 10px;
     font-size: 20px;
+}
+
+.ingredient-box{
+    display: flex;
+}
+
+.col-1{
+    
+    width: 100%;
+}
+
+.col-2{
+    width: 100%;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li img{
+    height: 50px;
+}
+
+.ingredient{
+    padding: 5px 10px 5px 0;
+}
+
+.checkbox{
+    display: inline-block;
+    vertical-align: 15px;
+    padding-left: 10px;
 }
