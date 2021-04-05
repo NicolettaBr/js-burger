@@ -1,3 +1,4 @@
+
 //funzionamento button Calculate
 
 
@@ -32,6 +33,23 @@ calculateButton.addEventListener('click', function(){
         }
     
     }
+    console.log(prezzoBaseBurger);
+
+    //controllare se coupon presente nell' array
+    var couponArray = ['123ABC', '456DEF', '789GHI'];
+
+    var couponAdd = document.getElementById('coupon').value;
+    console.log(couponAdd);
+
+    var couponPresent = couponArray.includes(couponAdd);
+    console.log(couponPresent);
+    
+    if ( couponPresent == true){
+        prezzoBaseBurger = prezzoBaseBurger - (prezzoBaseBurger * 10 / 100);
+    }else{
+        prezzoBaseBurger = prezzoBaseBurger;
+    }
+    
     console.log(prezzoBaseBurger);
 
     //stampare risultato somma in forma umana
